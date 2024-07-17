@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.course</groupId>
-	<artifactId>CourseDetailsRepo</artifactId>
+	<artifactId>course-details</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CourseDetailsRepo</name>
 	<description>CourseDetailsRepo</description>
