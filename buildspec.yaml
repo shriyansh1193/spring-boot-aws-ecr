@@ -35,4 +35,4 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-    - target/course-service.jar
+    - target/course-details.jar
