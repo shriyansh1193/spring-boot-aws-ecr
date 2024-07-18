@@ -3,7 +3,7 @@ FROM public.ecr.aws/docker/library/openjdk:17.0.2
 RUN mkdir /app
 
 # Copy the compiled Java application JAR file into the container
-COPY ./target/course-details:latest.jar /app/course-details.jar
+COPY ./target/course-details*.jar /app/course-details.jar
 # Expose the port the Spring Boot application will run on
 WORKDIR /app
 EXPOSE 8080
